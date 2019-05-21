@@ -184,4 +184,44 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Repositório de Releases da Cabal Brasil</name>
+            <url>http://ic.cabal.com.br/nexus/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Repositório de Snapshots da Cabal Brasil</name>
+            <url>http://ic.cabal.com.br/nexus/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <name>Repositório de Releases da Cabal Brasil</name>
+            <url>http://ic.cabal.com.br/nexus/content/repositories/releases/</url>
+            <snapshots>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+            <releases>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <name>Repositório de Snapshots da Cabal Brasil</name>
+            <url>http://ic.cabal.com.br/nexus/content/repositories/snapshots/</url>
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+        </repository>
+    </repositories>
+
 </project>
