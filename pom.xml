@@ -4,7 +4,7 @@
 
     <groupId>com.andersonlfeitosa</groupId>
     <artifactId>release-java-app</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>release-java-app</name>
 
@@ -12,7 +12,7 @@
         <connection>scm:git:https://github.com/andersonlfeitosa/release-java-app.git</connection>
         <developerConnection>scm:git:https://github.com/andersonlfeitosa/release-java-app.git</developerConnection>
         <url>https://github.com/andersonlfeitosa/release-java-app.git</url>
-        <tag>HEAD</tag>
+        <tag>release-java-app-1.0.1</tag>
     </scm>
 
     <properties>
