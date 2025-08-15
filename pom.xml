@@ -9,8 +9,8 @@
     <name>release-java-app</name>
 
     <scm>
-        <connection>scm:git:https://github.com/andersonlfeitosa/release-java-app.git</connection>
-        <developerConnection>scm:git:https://github.com/andersonlfeitosa/release-java-app.git</developerConnection>
+        <connection>scm:git:git://github.com/andersonlfeitosa/release-java-app.git</connection>
+        <developerConnection>scm:git:git@github.com/andersonlfeitosa/release-java-app.git</developerConnection>
         <url>https://github.com/andersonlfeitosa/release-java-app.git</url>
         <tag>HEAD</tag>
     </scm>
