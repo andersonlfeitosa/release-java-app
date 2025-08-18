@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 mvn -B release:prepare \
-          -DreleaseVersion=$1 \
-          -DdevelopmentVersion="$2"-SNAPSHOT \
+          -DreleaseVersion="1.0.$1" \
+          -DdevelopmentVersion="1.0.$2-SNAPSHOT" \
           -Dgoals=install
